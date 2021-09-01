@@ -1,0 +1,7 @@
+.stat {
+  display: flex;
+  flex-direction: column;
+}
+.comment {
+  margin: 5px;
+}
