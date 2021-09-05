@@ -5,3 +5,10 @@
 .comment {
   margin: 5px;
 }
+.button {
+  margin: 5px;
+  background-color: inherit;
+  border-radius: 3px;
+  border: none;
+  box-shadow: 0 0 10px rgba(128, 128, 128, 0.692);
+}
