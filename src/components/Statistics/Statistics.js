@@ -3,7 +3,6 @@ import s from "../Feedback/Feedback.module.css";
 
 const Statistics = ({ good, neutral, bad, total, positiveFeedback }) => (
   <div className={s.stat}>
-    <h2>Statistics</h2>
     <p className={s.comment}>
       Good:
       <span>{good}</span>
@@ -22,7 +21,7 @@ const Statistics = ({ good, neutral, bad, total, positiveFeedback }) => (
     </p>
     <p className={s.comment}>
       Positive feedback:
-      <span>{positiveFeedback}%</span>
+      <span>{positiveFeedback}</span> %
     </p>
   </div>
 );
